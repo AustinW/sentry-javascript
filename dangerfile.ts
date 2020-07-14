@@ -5,7 +5,7 @@ import { resolve } from 'path';
 import tslint from 'danger-plugin-tslint';
 import { prettyResults } from 'danger-plugin-tslint/dist/prettyResults';
 
-const packages = ['apm', 'browser', 'core', 'hub', 'integrations', 'minimal', 'node', 'types', 'utils'];
+const packages = ['angular', 'apm', 'browser', 'core', 'hub', 'integrations', 'minimal', 'node', 'types', 'utils'];
 
 export default async () => {
   if (!danger.github) {
